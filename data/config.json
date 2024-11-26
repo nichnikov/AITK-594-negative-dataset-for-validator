@@ -2,7 +2,7 @@
   "stopwords_files": ["stopwords.csv", "greetings.csv"],
   "clusters_index": "clusters",
   "answers_index": "answers",
-  "max_hits": 1000000,
+  "max_hits": 100,
   "chunk_size": 500,
   "sbert_score": 0.5,
   "t5_score": 0.7,
