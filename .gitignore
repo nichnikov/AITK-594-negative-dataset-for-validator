@@ -162,3 +162,4 @@ cython_debug/
 #.idea/
 results/
 results/found_answers.csv
+datasets/

@@ -27,7 +27,7 @@ PASSWORD = os.getenv('ES_PASSWORD')
 class ElasticClient(AsyncElasticsearch):
     """Handling with AsyncElasticsearch"""
     def __init__(self, *args, **kwargs):
-        self.max_hits = 10
+        self.max_hits = 50
         self.chunk_size = 50
         self.loop = asyncio.new_event_loop()
         super().__init__(

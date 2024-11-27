@@ -1,10 +1,5 @@
 pandas
-openpyxl==3.1.2
-pyarrow==16.1.0
-sentence-transformers==2.2.2
 torch==2.0.1
-transformers==4.36.0
-accelerate==0.31.0
 openpyxl==3.1.2
 pyarrow==16.1.0
 matplotlib==3.9.0
